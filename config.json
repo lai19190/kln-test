@@ -1,0 +1,15 @@
+{
+    "worker": {
+        "poolSize": 100,
+        "queueSize": 10,
+        "retry": {
+            "maxAttempts": 10,
+            "initialTimeout": 1,
+            "maxTimeout": 30
+        }
+    },
+    "auth": {
+        "username": "admin",
+        "password": "admin"
+    }
+}
